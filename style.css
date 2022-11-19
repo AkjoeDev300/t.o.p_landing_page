@@ -5,6 +5,8 @@
   font-family: 'roboto';
 }
 
+/* -----hero section------ */
+
 .hero{
   background-color: #1f2937;
   /* height: 20%; */
@@ -64,6 +66,7 @@
   border-radius: 6px;
   /* margin-bottom: 40px; */
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .div2{
@@ -90,10 +93,169 @@
   font-size: 18px;
 }
 
+.div2 ul li a:hover{
+  transition: all 0.5s;
+  background-image: linear-gradient(to right, blue 0%, red 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 .image{
   height: 230px;
   width: 400px;
   background-color: #fff;
   background-image: url(./pexels-diego-benjamín-13806105.jpg);
   background-size: 100%;
+}
+
+/* -----second section----- */
+
+.second{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.second h2{
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800px;
+  padding: 20px auto;
+  padding-bottom: 15px;
+
+}
+
+.sub_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_img div{
+  width: 180px;
+  height: 200px;
+  padding: 20px;
+
+}
+
+.sub_img img{
+  width: 100%;
+  height: 100px;
+}
+
+#imgs{
+  border: 2px solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 7px;
+  border-width: 3px;
+  border-color: #1f2937;
+}
+
+.imgs1{
+  background-image: url(./Lionel-Messi-2018.webp);
+  background-size: 100%;
+}
+
+.imgs2{
+  background-image: url(./c.ronaldo.jpg);
+  background-size: 100%;
+}
+
+.imgs3{
+  background-image: url(./Brazil-s-Pele-in-1970.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgs4{
+  background-image: url(./luis_figo.jpg);
+  background-size: 100%;
+}
+
+.sub_img p{
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+/* -----third section----- */
+
+.third{
+  padding: 70px;
+  background-color: #e5e7eb;
+  text-align: center;
+}
+
+.third q{
+  /* text-align: center; */
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  
+}
+
+.third figure{
+  width: 60%;
+  margin: auto;
+}
+
+.third figcaption{
+  padding-right: 15px;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: end;
+}
+
+/* -----fourth section----- */
+
+.fourth{
+  padding: 80px 250px;
+}
+
+.cta{
+  height: 90px;
+  border-radius: 6px;
+  background-image: linear-gradient(to right, blue 0%, red 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#btn2{
+  background-image: linear-gradient(to right, blue 0%, red 100%);
+  color: #f9faf8;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 25px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta_div1 h4{
+  color: #f9faf8;
+  font-size: 17px;
+}
+
+.cta_div1 p{
+  color: #e5e7eb;
+  font-size: 13px;
+}
+
+/* -----footer section----- */
+
+footer{
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
 }
